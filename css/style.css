@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: #F6F8F9;
 }
 
 header{
@@ -23,11 +23,6 @@ h1{
     vertical-align: middle;
     font-size: 2.5rem;
     font-weight: 800;
-}
-
-.separator{
-    height: 3px;
-    background-color: lightgrey;
 }
 
 .container{
@@ -50,15 +45,11 @@ button{
     padding: 5px 10px;
 }
 
-.btn-blue{
-    color: white;
-    background-color: rgb(0, 162, 255);
-}
-
 ul{
+    list-style:	none;
     list-style-position: inside;
     margin-bottom: 30px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 h2{
@@ -68,4 +59,73 @@ h2{
 .main-section{
     padding-top: 35px;
     padding-left: 25px;
+}
+
+.ul-symbol{
+    font-size: 0.8rem;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.tag{
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.ul-tri, h2{
+    vertical-align: middle;
+}
+
+/* Utilities */
+
+.separator{
+    height: 3px;
+    background-color: #F6F8F9;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #1E90FF;
+}
+
+.symbol-green{
+    color: green;
+    border: 1px solid green;
+}
+
+.symbol-red{
+    color: red;
+    border: 1px solid red;
+}
+
+.bg-purple{
+    background-color: #9C72E4;
+}
+
+.bg-acqua{
+    background-color: #64C0A9;
+}
+
+.bg-orange{
+    background-color: #F29E33;
+}
+
+.bg-green{
+    background-color: #B0C926;
+}
+
+.bg-blue{
+    background-color: #45ABEA;
+}
+
+.bg-pink{
+    background-color: #D863A1;
+}
+
+.cursor{
+    cursor: pointer;
 }
